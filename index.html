@@ -6,6 +6,10 @@
     <title>Games Shop - A sua loja de games</title>
     
     <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
@@ -14,14 +18,94 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Sobre a loja</a>
+                        <a href="#about">Sobre a loja</a>
                     </li>
                     <li>
-                        <a href="#">Contato</a>
+                        <a href="#contact">Contato</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
+    <section id="about">
+        <div class="container">
+            <img class="storeFront" src="./images/loja.jpg" alt="Fachada da loja Games Shop">
+            <div>
+                <h2>
+                    Sobre a loja
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente quas esse dolorem accusantium cum laborum, consectetur earum a nulla aperiam obcaecati? Tempore deleniti eum consequatur eius vero praesentium sapiente consequuntur!
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente quas esse dolorem accusantium cum laborum, consectetur earum a nulla aperiam obcaecati? Tempore deleniti eum consequatur eius vero praesentium sapiente consequuntur!
+                </p>
+                <ul class="brands-list">
+                    <li><img src="./images/nintendo.png" alt="Logo Nintendo"></li>
+                    <li><img src="./images/playstation.png" alt="Logo Playstation"></li>
+                    <li><img src="./images/xbox.png" alt="Logo Xbox"></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>
+                CONTATO
+            </h2>
+            <div class="contactMetods">
+                <div>
+                    <h3>
+                        Fale conosco
+                    </h3>
+                    <form>
+                        <input type="text" placeholder="Seu nome" required/>
+                        <input type="email" placeholder="Seu e-mail" required/>
+                        <input type="tel" placeholder="Seu telefone (Opcional)"/>
+                        <textarea placeholder="Sua mesangem" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <h3>
+                        Nos acompanhe
+                    </h3>
+                    <ul class="socialLinks">
+                        <il>
+                            <a href="#" title="Siga-nos no intagram.">
+                                <img src="./images/instagram.png" alt="Logo intagram"/>
+                            </a>
+                        </il>
+                        <il>
+                            <a href="#" title="Siga-nos no Facebook.">
+                                <img src="./images/facebook.png" alt="Logo Facebook"/>
+                            </a>
+                        </il>
+                        <il>
+                            <a href="#" title="Visite nosso canal.">
+                                <img src="./images/youtube.png" alt="Logo Youtube"/>
+                            </a>
+                        </il>
+                    </ul>
+                </div>
+                <div>
+                    <h3>
+                        Venha até nós
+                    </h3>
+                    <p>
+                        Rua Java Script n 124, Vila HTML - São Paulo - SP
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Games Shop - Todos os direitos reservados 2024
+            </p>
+        </div>
+
+    </footer>
 </body>
 </html>

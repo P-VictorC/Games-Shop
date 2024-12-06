@@ -10,11 +10,35 @@ header{
     color: #ecf0f1;
 }
 
+
+/*### Fontes ###*/
+
+header h1,
+header a,
+section h2,
+section h3,
+form button{
+    font-family: "Bungee", sans-serif;
+    font-weight: normal;
+}
+
+body,
+input,
+form textarea{
+    font-family: "Roboto", sans-serif;
+}
+
+
+section {
+    color: #182C61;
+}
+
+/*### Header  ###*/
 header nav li{
     display: inline;
     margin-left: 16px;
     color: #ecf0f1;
-    font-size: 24px;    
+    font-size: 18x;    
 }
 
 header a{
@@ -28,8 +52,105 @@ header a{
     margin: 0 auto;
 }
 
-header .container{
+header .container,
+section .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+/*### Sections ###*/
+
+.brands-list img {
+    height: 24px;
+}
+
+.brands-list li{
+    display: inline;
+}
+
+section .container{
+    align-items: self-start;
+}
+
+
+section{
+    padding: 24px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+section p{
+    margin-bottom: 16px;
+}
+
+section img{
+    margin-right: 32px;
+}
+
+/*### Contact ###*/
+
+#contact .container{
+    display: block;
+}
+
+.socialLinks img{
+    height: 24px;
+}
+
+.socialLinks li{
+    display: inline;
+    margin: 8px;
+}
+
+.socialLinks a{
+    text-decoration: none;
+}
+
+.contactMetods{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+input :focus, textarea :focus{
+    outline-color: #182C61 ;
+}
+
+section h3{
+    margin-bottom: 16px;
+}
+
+form button{
+    background-color: #182C61;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #4d67ad;
+}
+
+/*### Footer ###*/
+
+footer {
+    background-color: #182C61;
+    color: #ecf0f1;
+    padding: 16px 0;
 }
